@@ -1,0 +1,45 @@
+.jumbotron {
+	padding-top: 7px;
+	padding-bottom: 0px;
+	margin-bottom: 40px;
+	background-color: #d4ff66;
+	border-radius: 0px;
+}
+
+.btn-group-lg > .btn-primary {
+	color: Black;
+	background-color: #b8ff00;
+	border-color: #b8ff00;
+	border-radius: 0px;
+}
+.btn-primary:focus,
+.btn-primary.focus {
+  color: #fff;
+  background-color: #81b300;
+  border-color: #81b300;
+}
+.btn-primary:hover {
+  color: #fff;
+  background-color: #81b300;
+  border-color: #204d74;
+}
+
+.btn-group-lg > .btn-default {
+  color: Black;
+  background-color: #a6e600;
+  border-color: #a6e600;
+  border-radius: 0px;
+}
+.btn-default:focus,
+.btn-default.focus {
+  color: #fff;
+  background-color: #81b300;
+  border-color: #81b300;
+}
+.btn-default:hover {
+  color: #fff;
+  background-color: #81b300;
+  border-color: #204d74;
+}
+
+
