@@ -1,12 +1,63 @@
 .jumbotron {
-	padding-top: 7px;
+	padding-top: 1px;
 	padding-bottom: 0px;
-	margin-bottom: 40px;
-	background-color: #d4ff66;
+	margin-top:-40px;
+	background-color: #b8ff00;
 	border-radius: 0px;
 }
 
+body{
+        background-color: #f0ffcc;
+}
+@media (min-width: 768px) {
+  .navbar {
+    border-radius: 0px;
+    padding-top: 0px;
+    margin-top:-5px;
+    padding-bottom: 0px;
+    background-color: #00;
+  }
+  #first{
+
+      font-family: Myriad Pro,sans-serif,Helvetica;
+      font-weight: normal;
+      font-size: 20px;
+      color: #ff;
+  }
+
+
+}
+.navbar-brand {
+  float: left;
+  height: 50px;
+  padding: 15px 15px;
+  font-size: 25px;
+  line-height: 20px;
+}
+  
+#lower_right {
+  bottom: 8%;
+  right: 0%;
+  position: absolute;
+}
+
+#tag {
+  bottom: 7%;
+  right: 5%;
+  position: absolute;
+  font-size: 17px;
+  font-family: Myriad Pro;
+  font-weight: lighter;
+}
+
+.btn-lg,
 .btn-group-lg > .btn-primary {
+  padding: 9px 14px;
+  font-size: 17px;
+  line-height: 1.3333333;
+  border-radius: 0px;
+}
+.btn-group-lg> .btn-primary {
 	color: Black;
 	background-color: #b8ff00;
 	border-color: #b8ff00;
@@ -15,31 +66,44 @@
 .btn-primary:focus,
 .btn-primary.focus {
   color: #fff;
-  background-color: #81b300;
+  background-color: ##121900;
   border-color: #81b300;
 }
 .btn-primary:hover {
   color: #fff;
-  background-color: #81b300;
-  border-color: #204d74;
+  background-color:#b8ff00;
+  border-color: #bfff19;
 }
 
-.btn-group-lg > .btn-default {
+.btn-group-lg > .btn-default{
   color: Black;
-  background-color: #a6e600;
-  border-color: #a6e600;
-  border-radius: 0px;
+  background-color:#b8ff00;
+  border-color:#bfff19;
+  text-align: center;
+  margin-top: 10px;
+  border-radius: 4px;
 }
 .btn-default:focus,
 .btn-default.focus {
   color: #fff;
-  background-color: #81b300;
+  background-color: #a5e500;
   border-color: #81b300;
 }
 .btn-default:hover {
   color: #fff;
-  background-color: #81b300;
-  border-color: #204d74;
+  background-color: #b8ff00;
+  border-color: #bfff19;
 }
 
+.jumbotron  h1{
+  font-size: 48px;
+   font-family: Myriad Pro,Calibri , sans-serif; 
+   font-weight: lighter;
+}
+
+.jumbotron  h3{
+  font-size: 25px;
+   font-family: Myriad Pro,Calibri , sans-serif; 
+   font-weight: lighter;
+}
 
