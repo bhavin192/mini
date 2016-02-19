@@ -7,16 +7,42 @@
 }
 
 body{
-        background-color: #f0ffcc;
+        background-color:#fff;
 }
-@media (min-width: 768px) {
+.but{
+
+	background-color: #000;
+	color: #fff;
+}
+
+@media (min-width: 360px) {
   .navbar {
     border-radius: 0px;
     padding-top: 0px;
-    margin-top:-5px;
-    padding-bottom: 0px;
-    background-color: #00;
+    margin-top:-75px;
+    padding-top: 4px;
+    background-color: #111;
+
   }
+  
+ .navbar-inverse   .navbar-collapse .navbar-nav  > li > a {
+  padding-top: 80px;
+  color: #fff;
+  padding-bottom: 5px;
+  line-height: 18px;
+  
+ 
+}
+
+ .navbar-nav .navbar-fixed-bottom > li > a {
+  padding-top:0px;
+  color: #fff;
+  padding-bottom: 0px;
+  margin-bottom: 30px;
+  line-height: 18px;
+  
+ 
+}
   #first{
 
       font-family: Myriad Pro,sans-serif,Helvetica;
@@ -32,7 +58,7 @@ body{
   height: 50px;
   padding: 15px 15px;
   font-size: 25px;
-  line-height: 20px;
+  line-height: 30px;
 }
   
 #lower_right {
@@ -50,49 +76,59 @@ body{
   font-weight: lighter;
 }
 
-.btn-lg,
-.btn-group-lg > .btn-primary {
-  padding: 9px 14px;
-  font-size: 17px;
-  line-height: 1.3333333;
-  border-radius: 0px;
-}
-.btn-group-lg> .btn-primary {
-	color: Black;
-	background-color: #b8ff00;
-	border-color: #b8ff00;
-	border-radius: 0px;
-}
-.btn-primary:focus,
-.btn-primary.focus {
+
+
+
+@media (min-width: 360px){
+ 
+ .btn-default{
   color: #fff;
-  background-color: ##121900;
-  border-color: #81b300;
-}
-.btn-primary:hover {
-  color: #fff;
-  background-color:#b8ff00;
-  border-color: #bfff19;
+  background-color:#000;
+  border-color:#000;
+  font-size: 20px;
+  font-weight: normal;
+  right:45%;
+  bottom: 27%;
+  border-radius: 4px;
+  position: absolute;
 }
 
-.btn-group-lg > .btn-default{
-  color: Black;
-  background-color:#b8ff00;
-  border-color:#bfff19;
-  text-align: center;
-  margin-top: 10px;
-  border-radius: 4px;
 }
-.btn-default:focus,
-.btn-default.focus {
-  color: #fff;
-  background-color: #a5e500;
-  border-color: #81b300;
+
+
+#clean{
+color:#000;
+font-family: Myriad pro,Calibri, Helvetica,sans-serif;
+ font-size: 45px;
+ position: absolute;
+ right:34%;
+ bottom:52%;
+font-weight: normal;
 }
+#green{
+color:#111;
+font-family: Myriad pro,Calibri, Helvetica,sans-serif;
+font-size: 30px;
+ position: absolute;.
+font-size: 45px;
+right:43%;
+bottom:48%;
+font-weight: lighter;
+}
+
+.btn-default:focus,.btn-default.focus {
+  color: #999;
+  background-color: #000;
+}
+
+.btn-default:active, .btn-default.active{
+  color: #999;
+  background-color: #000;
+}
+
 .btn-default:hover {
-  color: #fff;
-  background-color: #b8ff00;
-  border-color: #bfff19;
+  color: #999;
+  background-color: #000;
 }
 
 .jumbotron  h1{
@@ -107,3 +143,35 @@ body{
    font-weight: lighter;
 }
 
+ 
+
+.navbar-inverse    .navbar-nav > li > a:hover,
+.navbar-inverse    .navbar-nav > li > a:focus, {
+  color: #999;
+  
+}
+ .navbar-collapse .navbar-nav > li > a:focus , 
+ .navbar-collapse .navbar-nav > li > a:hover{
+ 
+	color:#999;
+	
+ }
+
+.carousel-control.left {
+  background-image: none;
+  background-image:  none;
+  background-image: none;
+  background-image:  none;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);
+  background-repeat: repeat-x;
+}
+.carousel-control.right {
+  right: 0;
+  left: auto;
+  background-image: none;
+  background-image:  none;
+  background-image: none;
+  background-image:  none;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1);
+  background-repeat: repeat-x;
+}
