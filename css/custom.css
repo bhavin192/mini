@@ -157,21 +157,13 @@ font-weight: lighter;
 	
  }
 
-.carousel-control.left {
-  background-image: none;
-  background-image:  none;
-  background-image: none;
-  background-image:  none;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);
-  background-repeat: repeat-x;
-}
-.carousel-control.right {
-  right: 0;
-  left: auto;
-  background-image: none;
-  background-image:  none;
-  background-image: none;
-  background-image:  none;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1);
-  background-repeat: repeat-x;
+.navbar-collapse .navbar-nav > li > a , 
+ .navbar-collapse .navbar-nav > li > a{
+ 
+	color:#fff;
+	
+ }
+ 
+ .navbar-header {
+background-color:#000;
 }
