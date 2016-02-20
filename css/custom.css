@@ -2,7 +2,7 @@
 	padding-top: 1px;
 	padding-bottom: 0px;
 	margin-top:-40px;
-	background-color: #b8ff00;
+	background-color: #cdff4c;
 	border-radius: 0px;
 }
 
@@ -30,7 +30,8 @@ body{
   color: #fff;
   padding-bottom: 5px;
   line-height: 18px;
-  
+  font-family:Myriad Pro;
+  font-size:16px;
  
 }
 
@@ -156,6 +157,50 @@ font-weight: lighter;
 	color:#999;
 	
  }
+ 
+ .navbar-collapse .navbar-nav > li > a {
+	color:#fff;
+	
+ }
+ 
+ .navbar .navbar-header{
+ 
+		background-color:#000;
+ }
+ 
+  .navbar .navbar-collapse{
+ 
+		background-color:#000;
+ }
+ 
+ 
+ /* *********************************************************************************ABOUT************************************************************************/
+ 
+ .jumbotron  h2  > a{
+	font-size: 16px;
+	line-height: 50px;
+	font-family: Myriad Pro,Calibri , sans-serif; 
+	font-weight: lighter;
+	padding-top:4px;
+	padding-bottom:9px;
+	color: #000;
+	text-decoration:none;
+}
+
+ .navbar .navbar-header > a{
+ 
+		top:13px;
+		font-size:15px;
+		position:absolute;
+		left:45%; 
+		color:#fff;
+ }
+ 
+ .navbar .navbar-header > a:hover{
+ 
+		text-decoration:none;
+		color: #999;
+}
 
 .navbar-collapse .navbar-nav > li > a , 
  .navbar-collapse .navbar-nav > li > a{
