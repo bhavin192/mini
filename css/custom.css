@@ -6,6 +6,15 @@
 	border-radius: 0px;
 }
 
+.affix {
+	top: 0;
+	width: 100%;
+}
+
+.affix + .container-fluid {
+	padding-top: 70px;
+}
+		
 body{
         background-color: #f0ffcc;
 }
@@ -24,7 +33,6 @@ body{
       font-size: 20px;
       color: #ff;
   }
-
 
 }
 .navbar-brand {
@@ -93,6 +101,33 @@ body{
   color: #fff;
   background-color: #b8ff00;
   border-color: #bfff19;
+}
+
+ .btn-default{
+  color: #fff;
+  background-color:#000;
+  border-color:#000;
+  font-size: 20px;
+  font-weight: normal;
+  /*right:45%;
+  bottom: 25%;*/
+  border-radius: 4px;
+ /* position: absolute;*/
+}
+
+.btn-default:focus,.btn-default.focus {
+  color: #999;
+  background-color: #000;
+}
+
+.btn-default:active, .btn-default.active{
+  color: #999;
+  background-color: #000;
+}
+
+.btn-default:hover {
+  color: #999;
+  background-color: #000;
 }
 
 .jumbotron  h1{
