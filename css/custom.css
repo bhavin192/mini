@@ -2,7 +2,7 @@
 	padding-top: 1px;
 	padding-bottom: 0px;
 	margin-top:-40px;
-	background-color: #cdff4c;
+	background-color: #b8ff00;
 	border-radius: 0px;
 }
 
@@ -54,12 +54,12 @@ body{
 
 
 }
-.navbar-brand {
+.navbar-inverse .navbar-header .navbar-brand {
   float: left;
   height: 50px;
   padding: 15px 15px;
-  font-size: 25px;
-  line-height: 30px;
+  font-size: 18px;
+  line-height: 0px;
 }
   
 #lower_right {
@@ -80,7 +80,7 @@ body{
 
 
 
-@media (min-width: 360px){
+@media (min-width: 768px){
  
  .btn-default{
   color: #fff;
