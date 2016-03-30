@@ -1,16 +1,14 @@
-.jumbotron {
-	padding-top: 1px;
-	padding-bottom: 0px;
-	margin-top:-40px;
-	background-color: #b8ff00;
-	border-radius: 0px;
-}
+/*
+	*custom css
+	*copyright
+	
+*/
 
 body{
-		background-color:#fff;
+	background-color:#fff;
 }
-
-@media (min-width: 768px) {
+                  
+@media (min-width: 768px){
 	.navbar {                                                 							
 		border-radius: 0px;
 		margin-top:-75px;
@@ -29,9 +27,7 @@ body{
 		font-size:15px; 
 	}
 
-	
-
-	  .navbar > .container-fluid .navbar-brand {
+	.navbar > .container-fluid .navbar-brand {
 		padding-top: 84px;
 		color: #fff;
 		padding-bottom:2px;
@@ -40,9 +36,9 @@ body{
 		margin-left: 200px;
 		line-height: 0px;
 		position:relative;
-	 }
+	}
 
-	 .upload  .btn-default{
+	.upload  .btn-default{
 		color: #fff;
 		background-color: #fff;
 		border-color:#4d91fe;
@@ -54,12 +50,6 @@ body{
 		position: absolute;
 	}
 	
-	.text-center .img-responsive img{
-
-		height:768px;
-		width:100%;
-	}
-
 }
 
 .navbar-inverse  .navbar-brand {
@@ -81,6 +71,7 @@ body{
 		border-radius: 4px;
 		position: absolute;
 	}
+
 		
 /*&.btn-default{
 		color: #fff;
@@ -111,6 +102,7 @@ body{
 	background-color: #333;
 }
 
+/*
 .jumbotron  h1{
 	font-size: 48px;
 	 font-family: Myriad Pro,Calibri , sans-serif; 
@@ -122,138 +114,117 @@ body{
 	 font-family: Myriad Pro,Calibri , sans-serif; 
 	 font-weight: lighter;
 }
-
+*/
  
-
 .navbar-inverse    .navbar-nav > li > a:hover,
 .navbar-inverse    .navbar-nav > li > a:focus{
-
-	color:#bfbfbf;
-	
+	color:#bfbfbf;	
 }
+
  .navbar-collapse .navbar-nav > li > a:focus , 
- .navbar-collapse .navbar-nav > li > a:hover{
- 
+ .navbar-collapse .navbar-nav > li > a:hover{ 
 	color:#bfbfbf;
-	
  }
  
  .navbar-collapse .navbar-nav > li > a {
 	color:#fff;
-	
  }
  
  .navbar .navbar-header{
- 
 		background-color:#000;
  }
  
-	.navbar .navbar-collapse{
- 
+.navbar .navbar-collapse{
 		background-color:#000;
  }
 
+ /*
   hr{
 
  	color:#000;
  	margin-top:-16px;
  }
-
+*/
  
  .boxed {
-         
 	border: 1px solid #f3f3f3;
 	background-color: #f2f2f2;
 	box-shadow: 1.5px 1.5px 4px #888888;
 	padding-top: 30px;
 	padding-bottom: 60px;
-    width:470px;
+    width:470px;	
 	padding-left: 10px;
 	/*padding-right: -100px;
 	margin-top:  0px;*/
 	margin-left: 58%;
 	border-radius: 3px;
-	
  }
  
 .container{
-
       width:450px;
       margin-left: 3.5px;
       padding-right: 10px;
-
-
 }
 
 .boxed .form-group .upload{
-
 margin-left: 13%;
 position: absolute;
-
 }
 
 .boxed .container .form-group  .name{
-
-
 	float:left;
 	font-family: ;
 	font-weight: bolder;
-
 }
 
 .text-center .quote{
-
 	float:left;
 	margin-top: 100px;
 	margin-left: 60px;
 	font-size: 40px;
-
 }
 
- @media(max-width: 768px ){
-		.text-center .quote{
-			float: left;
-			margin-top: 0px;
-			margin-left: 60px;
-			font-size: 40px;
-		}
-	
+ @media(max-width: 768px ){									
+	.text-center .quote{
+		float: left;
+		margin-top: 0px;
+		margin-left: 60px;
+		font-size: 40px;
+	}
 		
-		.boxed {
-			border: 1px solid #f7f7f7;
-			background-color: #f7f7f7;
-			box-shadow: 3px 3px 2px #888888;
-			padding-top: 30px;
-			padding-bottom: 60px;
-			width:470px;
-			padding-left: 10px;
-			/*padding-right: -100px;*/
-			margin-top: 170px;
-			margin-bottom: -100;
-			margin-left: 16%;
-			border-radius: 3px;
-		}
+	.boxed {
+		border: 1px solid #f7f7f7;
+		background-color: #f7f7f7;
+		box-shadow: 3px 3px 2px #888888;
+		padding-top: 30px;
+		padding-bottom: 60px;
+		width:470px;
+		padding-left: 10px;
+		/*padding-right: -100px;*/
+		margin-top: 170px;
+		margin-bottom: -100;
+		margin-left: 16%;
+		border-radius: 3px;
+	}
  
-		.container{
-			width:450px;
-			margin-left: 3.5px;
-			padding-right: 10px;
-		}
+	.container{
+		width:450px;
+		margin-left: 3.5px;
+		padding-right: 10px;
+	}
 
-		.boxed .form-group .upload{
-			margin-left: 25%;
-			position: absolute;
-		}
+	.boxed .form-group .upload{
+		margin-left: 25%;
+		position: absolute;
+	}
 
-		.boxed .container .form-group  .name{
-			float:left;
-			font-family: ;
-			font-weight: bolder;
-		}
+	.boxed .container .form-group  .name{
+		float:left;
+		font-family: ;
+		font-weight: bolder;
+	}
 		
-	
  }
-
 
  
  /* ***********************************************************************************************************************ABOUT************************************************************************/
