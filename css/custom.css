@@ -1,0 +1,394 @@
+/*
+	*custom css
+	*copyright
+	
+*/
+
+body{
+	background-color:#fff;
+}
+
+@media (min-width: 768px){
+	.navbar {                                                 							
+		border-radius: 0px;
+		margin-top:-75px;
+		padding-top: px;
+		background-color: #000;
+
+	}					  				
+	
+ 	.navbar-inverse   .navbar-collapse .navbar-nav  > li > a {
+		padding-top: 83px;
+		color: #fff;
+		padding-bottom:2px;
+		margin-top: 1.5px;
+		line-height: 25px;
+		font-family:Myriad Pro;
+		font-size:15px; 
+	}
+
+	.navbar > .container-fluid .navbar-brand {
+		padding-top: 84px;
+		color: #fff;
+		padding-bottom:2px;
+		font-family:Myriad Pro;
+		font-size:15px; 
+		margin-left: 200px;
+		line-height: 0px;
+		position:relative;
+	}
+
+	.upload  .btn-default{
+		color: #fff;
+		background-color: #fff;
+		border-color:#4d91fe;
+		margin-top: 0%;
+		margin-left: 25%;
+		font-size: 18px;
+		font-weight: normal;
+		border-radius: 4px;
+		position: absolute;
+	}
+	
+}
+
+.navbar-inverse  .navbar-brand {
+	float: left;
+	height: 20px;
+	padding: 15px 15px;
+	font-size: 18px;
+	line-height: 0px;
+}
+	
+.upload  .btn-default{
+		color: #fff;
+		background-color: #4d4d4d;
+		border-color:#4d4d4d;
+		margin-top: 0%;
+		margin-left: 25%;
+		font-size: 18px;
+		font-weight: normal;
+		border-radius: 4px;
+		position: absolute;
+	}
+
+		
+/*&.btn-default{
+		color: #fff;
+		background-color:#000;
+		border-color:#000;
+		margin-top: 50%;
+		font-size: 20px;
+		font-weight: normal;
+		border-radius: 4px;
+		position: relative;
+}
+*/
+
+.upload .btn-default:focus,.btn-default.focus {
+	color: #999;
+	background-color: #4D4D4D;
+}
+
+/*
+.upload .btn-default:active,.btn-default.active{
+	color: #000;
+	background-color: #999;
+}
+*/
+
+.upload .btn-default:hover {
+	color: #fff;
+	background-color: #333;
+}
+
+/*
+.jumbotron  h1{
+	font-size: 48px;
+	 font-family: Myriad Pro,Calibri , sans-serif; 
+	 font-weight: lighter;
+}
+
+.jumbotron  h3{
+	font-size: 25px;
+	 font-family: Myriad Pro,Calibri , sans-serif; 
+	 font-weight: lighter;
+}
+*/
+ 
+.navbar-inverse    .navbar-nav > li > a:hover,
+.navbar-inverse    .navbar-nav > li > a:focus{
+	color:#bfbfbf;	
+}
+
+ .navbar-collapse .navbar-nav > li > a:focus , 
+ .navbar-collapse .navbar-nav > li > a:hover{ 
+	color:#bfbfbf;
+ }
+ 
+ .navbar-collapse .navbar-nav > li > a {
+	color:#fff;
+ }
+ 
+ .navbar .navbar-header{
+		background-color:#000;
+ }
+ 
+.navbar .navbar-collapse{
+		background-color:#000;
+ }
+
+ /*
+  hr{
+
+ 	color:#000;
+ 	margin-top:-16px;
+ }
+*/
+ 
+ .boxed {
+	border: 1px solid #f3f3f3;
+	background-color: #f2f2f2;
+	box-shadow: 1.5px 1.5px 4px #888888;
+	padding-top: 30px;
+	margin-top: 8%;
+	padding-bottom: 60px;
+    	width:470px;
+	height: 480px;
+	padding-left: 10px;
+	margin-left: 58%;
+	border-radius: 3px;
+}
+ 
+.form-container{
+      width:450px;
+      margin-left: 3.5px;
+      padding-right: 10px;
+}
+
+.boxed .form-group .upload{
+	position: relative;
+	margin-right: 45%;
+	margin-top: 30px;
+}
+
+.boxed .form-container .form-group  .name{
+	float:left;
+	font-family: ;
+	font-weight: bolder;
+}
+
+.text-center .quote{
+	float:left;
+	margin-top: 155px;
+	margin-left: 60px;
+	font-size: 40px;
+}
+
+ @media(max-width: 768px ){									
+	.text-center .quote{
+		float: left;
+		margin-top: 0px;
+		margin-left: 60px;
+		font-size: 40px;
+	}
+		
+	.boxed {
+		border: 1px solid #f7f7f7;
+		background-color: #f7f7f7;
+		box-shadow: 3px 3px 2px #888888;
+		padding-top: 30px;
+		padding-bottom: 60px;
+		width:470px;
+		padding-left: 10px;
+		/*padding-right: -100px;*/
+		margin-top: 170px;
+		margin-bottom: -100;
+		margin-left: 16%;
+		border-radius: 3px;
+	}
+ 
+	.form-container{
+		width:450px;
+		margin-left: 3.5px;
+		padding-right: 10px;
+	}
+
+	.boxed .form-group .upload{
+		margin-left: 25%;
+		position: absolute;
+	}
+
+	.boxed .container .form-group  .name{
+		float:left;
+		font-family: ;
+		font-weight: bolder;
+	}
+		
+ }
+ 
+ 
+.block{
+	border: 1px solid #f2f2f2;
+	border-radius: 3px;
+	background-color: #f2f2f2;
+	box-shadow: 1.5px 1.5px 4px #888888;
+    	width:470px;
+	height: 500px;
+	padding-top: 0px;
+	padding-bottom: 60px;
+	padding-left: 0px;
+	margin-right:  15%;
+	margin-top: 20px;
+	display: inline-block;	
+ }
+ 
+.block > img{
+	position: relative; 
+	border-radius: 3px 3px 0 0;
+	width: 470px;
+	width: 100%;
+	max-width: 100%;
+	height: auto;
+}
+
+
+.block .inblock .caption {
+  padding-bottom: 65px;
+  text-align: center;
+  color: #333;
+}
+
+
+.smallblock{
+	border: 1px solid #f2f2f2;
+	border-radius: 3px;
+	background-color: #f2f2f2;
+	box-shadow: 1.5px 1.5px 4px #888888;
+   	width: 300px;
+	height: 370px;
+	padding-top: 0px;
+	padding-bottom: 60px;
+	padding-left: 0px;
+	margin-top: 20px;
+	margin-left: 0%;
+	margin-right: 9%;
+	display: inline-block;
+}
+
+.smallblock > img{
+	position: relative; 
+	border-radius: 3px 3px 0 0;
+	width: 300px;
+	width: 100%;
+	max-width: 100%;
+	height: auto;
+}
+
+.text-center hr{
+
+	border-color:#000;
+	border: solid 0.7px;
+	margin-top:-15px;
+	margin-left:28%;
+	margin-right:28%;
+}
+
+.container .block p  , .container .smallblock p {
+
+	color: rgb(0, 136, 204);
+	text-decoration: none;
+	font-family: Myriad Set Pro;
+}
+
+
+
+  .container .block  p :hover , .container .smallblock p :hover {
+
+	color: #000;
+	text-decoration: none;
+	font-weight: lighter;
+}
+
+
+
+ 
+ /* ***********************************************************************************************************************ABOUT************************************************************************/
+ 
+ .text-center  p  > a{
+	font-size: 18px;
+	line-height: 50px;
+	font-family: Myriad Pro,Calibri , sans-serif; 
+	font-weight: lighter;
+	padding-top:4px;
+	padding-bottom:9px;
+	color: #000;
+	text-decoration:none;
+}
+
+   p  > a:hover, .p  > a:focus {
+	color: #b8ff00;
+	text-decoration: underline;
+	
+}
+
+ .navbar .navbar-header > a{
+ 
+		top:13px;
+		font-size:15px;
+		position:absolute;
+		left:45%; 
+		color:#fff;
+ }
+ 
+ .navbar .navbar-header > a:hover{
+ 
+		text-decoration:none;
+		color: #999;
+ }
+
+.navbar-collapse .navbar-nav > li > a , 
+ .navbar-collapse .navbar-nav > li > a{
+ 
+	color:#fff;
+	
+ }
+ 
+ .navbar-header {
+background-color:#000;
+}
+
+.tag{
+
+	line-height:12vw; 
+	font-size:9vw; 
+	margin-top: 10%;
+	font-family:Myriad Pro; 
+	color:#000 ; 
+	font-weight:lighter ;
+
+	-webkit-animation-name: example; /* Chrome, Safari, Opera */
+    	-webkit-animation-duration: 1.5s; /* Chrome, Safari, Opera */
+    	-webkit-animation-delay: 0.5s; /* Chrome, Safari, Opera */
+   	 animation-name: example;
+    	animation-duration: 1.5s;
+    	animation-delay: 0.5s;
+}
+
+.tag{
+   -webkit-animation-fill-mode:forwards; /*Chrome 16+, Safari 4+*/
+   -moz-animation-fill-mode:forwards; /*FF 5+*/
+   -o-animation-fill-mode:forwards; /*Not implemented yet*/
+   -ms-animation-fill-mode:forwards; /*IE 10+*/
+   animation-fill-mode:forwards; /*when the spec is finished*/
+}
+
+@-webkit-keyframes example {
+    100%   {font-size: 5vw}
+    
+}
+
+.about{
+
+	margin-top: -19px;
+}
