@@ -147,14 +147,14 @@ body{
 */
  
  .boxed {
-	border: 1px solid #f3f3f3;
+	border: 1px solid #f2f2f2;
 	background-color: #f2f2f2;
 	box-shadow: 1.5px 1.5px 4px #888888;
 	padding-top: 30px;
-	margin-top: 8%;
+	margin-top: 0%;
 	padding-bottom: 60px;
     	width:470px;
-	height: 480px;
+	height: auto;
 	padding-left: 10px;
 	margin-left: 58%;
 	border-radius: 3px;
@@ -168,8 +168,8 @@ body{
 
 .boxed .form-group .upload{
 	position: relative;
-	margin-right: 45%;
-	margin-top: 30px;
+	margin-right: 45.5%;
+	margin-top: 15px;
 }
 
 .boxed .form-container .form-group  .name{
@@ -180,9 +180,10 @@ body{
 
 .text-center .quote{
 	float:left;
-	margin-top: 155px;
+	margin-top: 15%;
 	margin-left: 60px;
-	font-size: 40px;
+	font-size: 3.7em;
+	font-family: Myriad-Set-Pro
 }
 
  @media(max-width: 768px ){									
@@ -194,8 +195,8 @@ body{
 	}
 		
 	.boxed {
-		border: 1px solid #f7f7f7;
-		background-color: #f7f7f7;
+		border: 1px solid #f2f2f2;
+		background-color: #f2f2f2;
 		box-shadow: 3px 3px 2px #888888;
 		padding-top: 30px;
 		padding-bottom: 60px;
@@ -231,18 +232,17 @@ body{
 .block{
 	border: 1px solid #f2f2f2;
 	border-radius: 3px;
-	background-color: #f2f2f2;
-	box-shadow: 1.5px 1.5px 4px #888888;
+	background-color: #f2f2f2;box-shadow: 1px 1px 8px #ccc;
     	width:470px;
 	height: 500px;
 	padding-top: 0px;
 	padding-bottom: 60px;
 	padding-left: 0px;
-	margin-right:  15%;
+	margin-right:  16.8%;
 	margin-top: 20px;
 	display: inline-block;	
  }
- 
+
 .block > img{
 	position: relative; 
 	border-radius: 3px 3px 0 0;
@@ -250,6 +250,8 @@ body{
 	width: 100%;
 	max-width: 100%;
 	height: auto;
+	-webkit-filter: blur(1.3333px);filter: blur(1.3333px);
+
 }
 
 
@@ -262,9 +264,9 @@ body{
 
 .smallblock{
 	border: 1px solid #f2f2f2;
+	background-color: #f2f2f2;box-shadow: 1px 1px 8px #ccc;
 	border-radius: 3px;
 	background-color: #f2f2f2;
-	box-shadow: 1.5px 1.5px 4px #888888;
    	width: 300px;
 	height: 370px;
 	padding-top: 0px;
@@ -272,7 +274,7 @@ body{
 	padding-left: 0px;
 	margin-top: 20px;
 	margin-left: 0%;
-	margin-right: 9%;
+	margin-right: 10%;
 	display: inline-block;
 }
 
@@ -296,7 +298,7 @@ body{
 
 .container .block p  , .container .smallblock p {
 
-	color: rgb(0, 136, 204);
+	color: #08c;
 	text-decoration: none;
 	font-family: Myriad Set Pro;
 }
@@ -309,9 +311,58 @@ body{
 	text-decoration: none;
 	font-weight: lighter;
 }
+@font-face {
+   	 font-family: "Myriad Set Pro";
+    	src: url(http://www.apple.com/wss/fonts/Myriad-Set-Pro/v1/myriad-set-pro_text.woff);
+    	}
+.jumbotron{
 
+	color: #f2f2f2;
+}
+.container .jumbotron .footer{
 
+	font-family: "Myriad Set Pro";
+	color: #666;
+	font-size: 15px;
+	text-rendering: optimizelegibility;
+}
 
+  #menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+  #menu li {
+
+  	display: inline-block;
+  	color: #08c;
+	font-size: 12px;
+	float: left;
+}
+
+#menu li  :hover{
+
+	color:#111;
+	text-decoration: none;
+}
+
+.reports p:nth-child(1){
+
+	color:#333; 
+	font-family:Myriad Pro; 
+	font-size:58px; 
+	margin-top:-20px;
+	font-weight: normal;
+}
+.reports p:nth-child(2){
+
+	color:#666; 
+	font-family:Myriad Pro; 
+	font-size:32px; 
+	margin-top:-20px;
+	font-weight: lighter;
+}
  
  /* ***********************************************************************************************************************ABOUT************************************************************************/
  
