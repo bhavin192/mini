@@ -1,0 +1,50 @@
+.container p{
+
+	font-size: 3em;
+	font-family: Myriad Set Pro;
+	color: #333;
+}
+
+.container hr{
+
+	
+	color: #f3f3f3;
+	margin-top: -1.9%;
+}
+
+.container .blur{
+		background-color: rgba(0,0,0,0.35);
+		z-index: 5;
+		height: 370px;
+		width:1141px; 
+		position: absolute;
+	}
+.container .caption{
+		cursor: pointer;
+		position: absolute;
+		opacity: 1;
+		-webkit-transition:all 0.45s ease-in-out;
+		-moz-transition:all 0.45s ease-in-out;
+		-o-transition:all 0.45s ease-in-out;
+		-ms-transition:all 0.45s ease-in-out;
+		transition:all 0.45s ease-in-out;
+
+	}
+.container .caption-text p{
+		z-index: 44;
+		font-size: 40px;
+		font-style: normal;
+		font-weight: 200;
+		color: #fff;
+		position: relative;
+		font-family: Myriad Set Pro;
+		text-align: center;
+		padding-top:  150px;
+		padding-left:  400px;
+	}
+
+.container #text {
+
+	font-size: 25px;
+	color: #333;
+}

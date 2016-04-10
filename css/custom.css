@@ -23,7 +23,7 @@ body{
 		padding-bottom:2px;
 		margin-top: 1.5px;
 		line-height: 25px;
-		font-family:Myriad Pro;
+		font-family:Myriad Pro, sans-serif,Helvetica, Arial;
 		font-size:15px; 
 	}
 
@@ -31,7 +31,7 @@ body{
 		padding-top: 84px;
 		color: #fff;
 		padding-bottom:2px;
-		font-family:Myriad Pro;
+		font-family:Myriad  Pro, sans-serif,Helvetica, Arial;
 		font-size:15px; 
 		margin-left: 200px;
 		line-height: 0px;
@@ -178,20 +178,24 @@ body{
 	font-weight: bolder;
 }
 
-.text-center .quote{
+.text-center .quote p{
 	float:left;
 	margin-top: 15%;
-	margin-left: 60px;
-	font-size: 3.7em;
-	font-family: Myriad-Set-Pro
+	margin-left: 55px;
+	font-family: Myriad  Pro, sans-serif,Helvetica, Arial;
+	opacity: 1;
+	font-size: 5vh;
+	
 }
 
- @media(max-width: 768px ){									
-	.text-center .quote{
+
+
+ @media(max-width: 769px ){									
+	.text-center .quote p{
 		float: left;
-		margin-top: 0px;
-		margin-left: 60px;
-		font-size: 40px;
+		margin-top: 5%;
+		margin-left: 11%;
+		font-size: 44px;
 	}
 		
 	.boxed {
@@ -216,7 +220,7 @@ body{
 	}
 
 	.boxed .form-group .upload{
-		margin-left: 25%;
+		margin-left: 22%;
 		position: absolute;
 	}
 
@@ -225,7 +229,8 @@ body{
 		font-family: ;
 		font-weight: bolder;
 	}
-		
+	
+
  }
  
  
@@ -249,9 +254,7 @@ body{
 	width: 470px;
 	width: 100%;
 	max-width: 100%;
-	height: auto;
-	-webkit-filter: blur(1.3333px);filter: blur(1.3333px);
-
+	height: 350px;
 }
 
 
@@ -287,6 +290,8 @@ body{
 	height: auto;
 }
 
+
+
 .text-center hr{
 
 	border-color:#000;
@@ -300,17 +305,133 @@ body{
 
 	color: #08c;
 	text-decoration: none;
-	font-family: Myriad Set Pro;
+	font-family: Myriad  Pro, sans-serif,Helvetica, Arial;
 }
 
+@media(max-width:769px){
 
+	.block{
+		border: 1px solid #f2f2f2;
+		border-radius: 3px;
+		background-color: #f2f2f2;
+		box-shadow: 1px 1px 8px #ccc;
+	    	width:350px;
+		height:auto;
+		padding-top: 0px;
+		padding-bottom: 20px;
+		padding-left: 0px;
+		margin-left:  0%;
+		margin-right:4%;
+		margin-top: 20px;
+		display: inline-block;	
+	 }
 
-  .container .block  p :hover , .container .smallblock p :hover {
+	 .block > img{
+		position: relative; 
+		border-radius: 3px 3px 0 0;
+		width: 350px;
+		width: 100%;
+		max-width: 100%;
+		height: 320px;
+	}
 
-	color: #000;
-	text-decoration: none;
-	font-weight: lighter;
+	.container .block .blur{
+		background-color: rgba(0,0,0,0.45);
+		height: 320px;
+		width: 350px;
+		z-index: 5;
+		position: absolute;
+	}
+
+	.block .caption{
+		cursor: pointer;
+		position: absolute;
+		opacity: 1;
+	}
+
+	.container .block .caption-text h1{
+		z-index: 44;
+		font-size: 40px;
+		font-style: normal;
+		font-weight: 200;
+		color: #fff;
+		position: relative;
+		font-family:Myriad  Pro, sans-serif,Helvetica, Arial;
+		width: 350px;
+		height: 350px;
+		text-align: center;
+		text-rendering: optimizelegibility;
+		margin-top: 45%;
+	}
+
+	.container .smallblock{
+		border: 1px solid #f2f2f2;
+		background-color: #f2f2f2;box-shadow: 1px 1px 8px #ccc;
+		border-radius: 3px;
+		background-color: #f2f2f2;
+   		width: 240px;
+		height: 350px;
+		padding-left: 0px;
+		margin-top: 20px;
+		margin-left: 0%;
+		margin-right: 0.5%;
+		display: inline-block;
+	}	
+
+	.smallblock > img{
+		position: relative; 
+		border-radius: 3px 3px 0 0;
+		width: 240px;
+		width: 100%;
+		max-width: 100%;
+		height: auto;
+	}	
+
+	.container .smallblock .blur{
+		background-color: rgba(0,0,0,0.45);
+		height: 178px;
+		width: 240px;
+		z-index: 5;
+		position: absolute;
+	}
+
+	.smallblock .caption{
+		cursor: pointer;
+		position: absolute;
+		opacity: 1;
+	}
+	.container .smallblock .caption .caption-text h1 {
+		z-index: 44;
+		font-size: 34px;
+		font-style: normal;
+		font-weight: 200;
+		color: #fff;
+		position: relative;
+		font-family: Myriad Pro, sans-serif,Helvetica, Arial;
+		width: 240px;
+		height: 208px;
+		text-align: center;
+		text-rendering: optimizelegibility;
+		margin-top: 33%;
+	}
+
+	.container .jumbotron  .footer p{
+
+		font-size:13px;
+		margin-top:2.777%;
+	}
 }
+
+.container .jumbotron  .footer hr {
+	margin-top: -1.77%;
+	border-color: #e3e3e3;
+}
+.container .jumbotron  .footer p{
+
+		font-size:13px;
+		margin-top:-1.777%;
+	}
+
 @font-face {
    	 font-family: "Myriad Set Pro";
     	src: url(http://www.apple.com/wss/fonts/Myriad-Set-Pro/v1/myriad-set-pro_text.woff);
@@ -321,7 +442,7 @@ body{
 }
 .container .jumbotron .footer{
 
-	font-family: "Myriad Set Pro";
+	font-family: Myriad  Pro;
 	color: #666;
 	font-size: 15px;
 	text-rendering: optimizelegibility;
@@ -350,26 +471,93 @@ body{
 .reports p:nth-child(1){
 
 	color:#333; 
-	font-family:Myriad Pro; 
+	font-family:Myriad  Pro, sans-serif,Helvetica, Arial; 
 	font-size:58px; 
-	margin-top:-20px;
-	font-weight: normal;
-}
-.reports p:nth-child(2){
-
-	color:#666; 
-	font-family:Myriad Pro; 
-	font-size:32px; 
 	margin-top:-20px;
 	font-weight: lighter;
 }
+.reports p:nth-child(3){
+
+	color:#666; 
+	font-family:Myriad Pro, sans-serif,Helvetica, Arial; 
+	font-size:30px; 
+	margin-top:-20px;
+	font-weight: lighter;
+}
+
+.block .blur{
+		background-color: rgba(0,0,0,0.55);
+		height: 350px;
+		width: 470px;
+		z-index: 5;
+		position: absolute;
+	}
+.smallblock .blur{
+		background-color: rgba(0,0,0,0.55);
+		height: 223px;
+		width: 298px;
+		z-index: 5;
+		position: absolute;
+	}
  
+ .block .caption{
+		cursor: pointer;
+		position: absolute;
+		opacity: 1;
+		-webkit-transition:all 0.45s ease-in-out;
+		-moz-transition:all 0.45s ease-in-out;
+		-o-transition:all 0.45s ease-in-out;
+		-ms-transition:all 0.45s ease-in-out;
+		transition:all 0.45s ease-in-out;
+
+	}
+.block .caption-text h1{
+		z-index: 44;
+		font-size: 40px;
+		font-style: normal;
+		font-weight: 200;
+		color: #fff;
+		position: relative;
+		font-family:Myriad  Pro, sans-serif,Helvetica, Arial;
+		width: 470px;
+		height: 340px;
+		text-align: center;
+		text-rendering: optimizelegibility;
+		margin-top: 35%;
+	}
+
+.smallblock .caption{
+		cursor: pointer;
+		position: absolute;
+		opacity: 1;
+		-webkit-transition:all 0.45s ease-in-out;
+		-moz-transition:all 0.45s ease-in-out;
+		-o-transition:all 0.45s ease-in-out;
+		-ms-transition:all 0.45s ease-in-out;
+		transition:all 0.45s ease-in-out;
+
+	}
+.smallblock .caption .caption-text h1 {
+		z-index: 44;
+		font-size: 34px;
+		font-style: normal;
+		font-weight: 200;
+		color: #fff;
+		position: relative;
+		font-family: Myriad Pro, sans-serif,Helvetica, Arial;
+		width: 298px;
+		height: 223px;
+		text-align: center;
+		text-rendering: optimizelegibility;
+		margin-top: 35%;
+	}
+
  /* ***********************************************************************************************************************ABOUT************************************************************************/
  
  .text-center  p  > a{
 	font-size: 18px;
 	line-height: 50px;
-	font-family: Myriad Pro,Calibri , sans-serif; 
+	font-family: Myriad  Pro, sans-serif,Helvetica, Arial; 
 	font-weight: lighter;
 	padding-top:4px;
 	padding-bottom:9px;
@@ -412,12 +600,12 @@ background-color:#000;
 .tag{
 
 	line-height:12vw; 
-	font-size:9vw; 
+	font-size:9.5vw; 
 	margin-top: 10%;
-	font-family:Myriad Pro; 
+	font-family:Myriad  Pro, sans-serif,Helvetica, Aria; 
 	color:#000 ; 
 	font-weight:lighter ;
-
+	opacity: 0;
 	-webkit-animation-name: example; /* Chrome, Safari, Opera */
     	-webkit-animation-duration: 1.5s; /* Chrome, Safari, Opera */
     	-webkit-animation-delay: 0.5s; /* Chrome, Safari, Opera */
@@ -435,11 +623,60 @@ background-color:#000;
 }
 
 @-webkit-keyframes example {
-    100%   {font-size: 5vw}
+
+    100%   {font-size: 4.5vw;
+    		opacity: 1;
+    }
     
 }
 
 .about{
 
 	margin-top: -19px;
+}
+
+/* ********************************************************LOGIN********************************* */
+
+.login-boxed {
+	border: 1px solid #f2f2f2;
+	background-color: #f2f2f2;
+	box-shadow: 1.5px 1.5px 4px #888888;
+	padding-top: 30px;
+	margin-top: 18%;
+	padding-bottom: 60px;
+    	width:290px;
+	height: auto;
+	padding-left: 10px;
+	margin-left: 30%;
+	border-radius: 5px;
+}
+ 
+.login-container{
+      width:270px;
+      height: auto;
+      margin-left: 3.5px;
+      padding-right: 10px;
+}
+
+.login-boxed  .upload .btn-default{
+	position: relative;
+	margin-right: 32%;
+	margin-top: 7px;
+	background-color: #08c;
+	border-color: #08c;
+	width: 110px;
+	height: 35px;
+}
+
+.login-boxed .login-container .login-group  .name{
+	float:left;
+	font-family: ;
+	font-weight: bolder;
+}
+
+.login-back {
+
+
+	background-color: rgba(0,0,0,0.15);
+
 }
