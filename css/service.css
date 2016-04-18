@@ -1,0 +1,38 @@
+.container #customer{
+	font: 24px Myriad Pro, Arial;
+}
+
+.container .customer {
+	border-color: #e3e3e3;
+	margin-top: -0.5%;
+}
+
+.request{
+	border: 1px solid #fff;
+	border-radius: 3px;
+	background-color: #fff;
+    	width:170.5px;
+	height: auto;
+	margin-top: 5%;
+	margin-left: 22%;
+	margin-right: -15%;
+	display: inline-block;	
+ }
+
+.request > img{
+	position: relative; 
+	border-radius: 6px;
+	width: 150.5px;
+	height: auto;
+}
+
+.request a{
+	font: 18px Myriad Pro, Arial;
+}
+
+.request a:hover{
+	font: 18px Myriad Pro, Arial;
+	color: #000;
+	text-decoration: none;
+}
+
