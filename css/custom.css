@@ -224,12 +224,11 @@ body{
 		position: absolute;
 	}
 
-	.boxed .container .form-group  .name{
+	.boxed  .form-group  .name{
 		float:left;
 		font-family: ;
 		font-weight: bolder;
 	}
-	
 
  }
  
