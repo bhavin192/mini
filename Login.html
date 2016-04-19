@@ -1,60 +1,50 @@
-<!DOCTYPE html>
+<?php
+if(isset($_POST["submit"])) {
+	session_start();
+	if($_POST['username'] == 'admin' && $_POST['password'] == 'admin'){
+		$_SESSION['uname'] = $_POST['username'];
+		header("location:dashboard.php");
+	}
+}
+?>
 
-<html lang="en">
-
+<html>
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    	<title> WM | Login</title>
-    	<meta charset="utf-8">
-    	<meta name="viewport" content="width=device-width, initial-scale=1">
+<link type="text/css" rel="stylesheet" href="css/bootstrap.css">
+<link type="text/css" rel="stylesheet" href="css/login.css">
+<link type="text/css" rel="stylesheet" href="css/custom.css">
 
-    	<link type="text/css" rel="stylesheet" href="css/bootstrap.css">
-    	<link type="text/css" rel="stylesheet" href="css/custom.css">
-	<link type="text/css" rel="stylesheet" href="css/main.css">
-	<link type="text/css" rel="stylesheet" href="css/normalize.css">
-    	<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
-    	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>  
-	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
 
-   	 <style type="text/css">
-            	tab1 { padding-left: 21em; }
-            	tab2 { padding-left: 1.5em; }
-            	tab3 { padding-left: 9.3em; }
-            	tab4 { padding-right: -70em; }
-            	tab5{padding-right: 56.7em;}
-            
-    	</style>
+
 </head>
-<body >
-	 <div class="container">
-	 	<div class="text-center>"
-	 		<p style="font-family:Myriad Set Pro;color:#333;font-size:54px">WM</p>
-	               </div>
-	 	<hr style="border-color:#e3e3e3;margin-top:-2%">
-    		<div class="login-boxed" >
-        			<div class=" login-container">   
-           				 <form role="form" action="upload.php" method="post" enctype="multipart/form-data" class="text-center">
 
-                				<div class="login-group">
-                    					<label for="name"  class="name">Login</label><br>
-                    					<p><input type="text" class="form-control" placeholder="Email" name="name" id="name"></p> 
-                				</div>
-               			           
-                				<div class="login-group">
-                  				 	 <label for="name"  class="name"></label>
-                   					 <p><input type="password" class="form-control" placeholder="Password" name="name" id="name"></p> 
-                				</div>
 
-                				<div class="upload">
-						<button type="submit" class="btn  btn-default"> Log In </button>
-					</div>
-                                     				              			
-            				</form>
-            				<p style="margin-left:13%;margin-top:3.33333%">Don't have an account? <a href="sign-up.html">Sign Up </a></p>
-            				<p style="margin-left:28%;margin-top:4%"> <a href="">Forgot password?</a></p>
-        			</div>                            
-    		</div>
-    		<p> <a href="">back</a></p>
+<body>
+<div class="container">
+	<p id="welcome" style="color:#548c8c;font-size:24px"> Waste Management </p>
+	<hr >
+	<p id="welcome" style="margin-top:-1%">Welcome. Login</p>
+	<div class="boxed">
+		<div class="form-container">
+			<form role="form" action="" method="post" enctype="multipart/form-data" class="text-center">
+				<div class="form-group">
+					<label class="name" for="username" >Name:</label>
+					<p><input type="text" class="form-control" placeholder="User ID" name="username" required></p> 
+				</div>
+				<div class="form-group">
+					<label class="password" for="password" >Password:</label>
+					<p><input type="password" class="form-control" placeholder="Password" name="password" required></p> 
+				</div>	
+				<input type="submit" name="submit" value="Login" class="btn  btn-default">
+			</form>
+			<p> <a href="">Forgot Password?</a></p>
+		</div>
 	</div>
-</body>
+	<p id="back" style="text-align:center;margin-top:1%"> <a href="index.html">back</a></p>
 
+</div>
+</body>
+</html>
