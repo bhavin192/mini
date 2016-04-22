@@ -1,0 +1,49 @@
+.container #title{
+	font-size: 24px;
+	font-family: Myriad Pro, Arial;
+	color:#333;
+}
+
+.container #OF, .container #CC{
+	font-size: 20px;
+	font-family: Myriad Pro, Arial;
+	color:#333;
+}
+
+.container #add{
+	font-size: 18px;
+	font-family:  Myriad Pro, sans-serif, Helvetica;
+	color: #666;
+}
+
+.container #add p>a{
+	font-size: 18px;
+	font-family:  Myriad Pro, sans-serif, Helvetica;
+	color: #08c;
+	text-decoration: none;
+}
+
+.container p:nth-child(3) span{
+	font-family:Myriad Pro;
+	font-size:18px;
+	color:#333;
+}
+
+ #add a:hover{
+	
+	color: #000;
+	text-decoration: none;
+}
+
+.container #follow p>a{
+
+	text-decoration: none;
+	color: #08c;
+}
+
+ #follow a:hover{
+
+	text-decoration: none;
+	color: #000;
+}
+
