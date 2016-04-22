@@ -1,0 +1,26 @@
+.container .privacy p{
+	font: 28px Myriad Pro, Arial , Helvetica;
+	color: #333;
+}
+
+.container .privacy hr{
+	border-color:#e3e3e3;
+	margin-top:-1%;
+}
+
+.container .text-center p {
+	text-align:center
+	font: 28px Myriad Pro;
+}
+
+.container .collection p{
+	font: 20px Myriad Pro, Arial , Helvetica;
+	color: #333;
+}
+
+.container .collection #second{
+	font: 18px Myriad Pro, Arial , Helvetica;
+	color: #333;
+	text-align:leftwards;
+	letter-spacing: normal;
+}

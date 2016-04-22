@@ -1,0 +1,28 @@
+.container #site {
+	font: 24px Myriad Pro, Arial, Helvetica;
+}
+
+.container #site  hr {
+	border-color: #e3e3e3;
+	margin-top: -0.5%;
+}
+
+.container #about{
+	font: 18px  Arial;
+	font-weight: normal;
+}
+
+.container #list1 a{
+	font-weight: normal;
+	font-size: 16px;
+	color: #08c;
+}
+
+#list1 a:hover{
+	text-decoration: none;
+	color: #333;
+}
+
+.container .display{
+	display:inline-block;
+}

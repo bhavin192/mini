@@ -1,0 +1,138 @@
+.container p{
+
+	font-size: 3em;
+	font-family: Myriad Pro;
+	margin-top: 0.5%;
+	color: #333;
+}
+
+.container p >img{
+
+	margin-top: -3%;
+}
+
+.container hr{
+
+	
+	color: #f3f3f3;
+	margin-top: -2.2%;
+	
+}
+
+.container .blur{
+		background-color: rgba(0,0,0,0.35);
+		z-index: 5;
+		height: 370px;
+		width:1141px; 
+		position: absolute;
+	}
+.container .caption{
+		cursor: pointer;
+		position: absolute;
+		opacity: 1;
+
+	}
+.container .caption-text p{
+		z-index: 44;
+		font-size: 3.0vw;
+		font-style: normal;
+		font-weight: 200;
+		color: #fff;
+		position: relative;
+		font-family: Myriad  Pro;
+		text-align: center;
+		margin-top: 10%;
+		padding-top:  150px;
+		padding-left:  400px;
+		opacity: 0;
+	-webkit-animation-name: example; /* Chrome, Safari, Opera */
+    	-webkit-animation-duration: 1.5s; /* Chrome, Safari, Opera */
+    	-webkit-animation-delay: 0.5s; /* Chrome, Safari, Opera */
+   	 animation-name: example;
+    	animation-duration: 1.5s;
+    	animation-delay: 0.5s;
+	}
+
+.container .caption-text p{
+   -webkit-animation-fill-mode:forwards; /*Chrome 16+, Safari 4+*/
+   -moz-animation-fill-mode:forwards; /*FF 5+*/
+   -o-animation-fill-mode:forwards; /*Not implemented yet*/
+   -ms-animation-fill-mode:forwards; /*IE 10+*/
+   animation-fill-mode:forwards; /*when the spec is finished*/
+}
+
+@-webkit-keyframes example {
+
+    100%   {font-size: 2.8vw;
+    		opacity: 1;
+    }
+    
+}
+.container .caption-text #reuse{
+		z-index: 44;
+		font-size: 2.99999999vw;
+		font-style: normal;
+		font-weight: 200;
+		color: #fff;
+		position: relative;
+		font-family: Myriad  Pro;
+		margin-left: -20%;
+		padding-top:  150px;
+		padding-left:  400px;
+		margin-top: 7%;
+		opacity: 0;
+	-webkit-animation-name: example; /* Chrome, Safari, Opera */
+    	-webkit-animation-duration: 1.5s; /* Chrome, Safari, Opera */
+    	-webkit-animation-delay: 0.5s; /* Chrome, Safari, Opera */
+   	 animation-name: example;
+    	animation-duration: 1.5s;
+    	animation-delay: 0.5s;
+}
+
+.container .caption-text #reuse{
+   -webkit-animation-fill-mode:forwards; /*Chrome 16+, Safari 4+*/
+   -moz-animation-fill-mode:forwards; /*FF 5+*/
+   -o-animation-fill-mode:forwards; /*Not implemented yet*/
+   -ms-animation-fill-mode:forwards; /*IE 10+*/
+   animation-fill-mode:forwards; /*when the spec is finished*/
+}
+
+@-webkit-keyframes example {
+
+    100%   {	font-size: 2.9vw;
+    		opacity: 1;
+    	
+   	 }
+    
+}
+.container #text  {
+
+	font-size: 17px;
+	color: #333;
+	text-align: center;
+	font-family: Arial;
+	margin-top: -2%;
+}
+
+.container h2{
+
+	font-weight: lighter;
+	font-family: Myriad Pro, sans-serif, Arial, Helvetica;
+	text-align: center;
+	color: #548c8c;
+	margin-top: -1%;
+}
+
+.container #R, .container #energy {
+
+	text-align: center;
+
+}
+
+.container .energy {
+
+	float: left;
+	position: relative;
+	margin-left: 10%;
+	
+}

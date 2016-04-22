@@ -1,0 +1,56 @@
+
+  .container #work {
+    font-size: 28px;
+    font-family: Myriad Pro, Arial, sans-serif;
+    color: #333;
+}
+
+.container  #how{
+    border-color: #e3e3e3;
+    margin-top: -1.5%;
+
+}
+
+
+
+.numberCircle {
+    border-radius: 50%;
+    behavior: url(PIE.htc); /* remove if you don't care about IE8 */
+
+    width: 70px;
+    height: 70px;
+    background: #fff;
+    border: 0.5px solid #b8ff00  ;
+    color: #548c8c;
+    font-family: Myriad Pro;
+    font-size: 50px;
+    font-weight: lighter;
+    text-align: center;
+    margin:auto;
+    margin-top: 4%;
+}
+
+.container #first{
+   font : 20px Myriad Pro;
+    text-align: center;
+    color: #333;
+
+}
+
+.container #first #head{
+
+    font : 30px Myriad Pro;
+    color: #000;
+    text-align: center;
+}
+
+.container p:nth-child(4) {
+    font: serif;14px Myriad Pro;
+    text-align: center;
+    text-decoration: none;
+}
+
+ p:nth-child(4) a:hover{
+    color: #000;
+    text-decoration: none;
+}

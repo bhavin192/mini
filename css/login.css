@@ -1,0 +1,68 @@
+.container .boxed {
+		background-color: #f2f2f2;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		width:290px;
+		margin: auto;
+		padding-left: 10px;
+		margin-top: 2%;
+		border-radius: 3px;
+}
+ 
+.container .boxed .form-container{
+	width:270px;
+	margin-left: 3.5px;
+	padding-right: 10px;
+}
+
+.container .boxed .form-container .name{
+	float: left;
+}
+
+.container .boxed .form-container .btn-default{
+	color: #fff;
+	background-color: #08c;
+	border-color: #666;
+	opacity: 0.9;
+	width: 80px;
+}
+
+.container .boxed .form-container .btn-default:hover{
+	color: #fff;
+	background-color: #08c;
+	opacity: 1;
+}
+
+.container .boxed .form-container p{
+	text-decoration: none;
+	color: #f00;
+	text-align: center;
+}
+
+.form-container p >a:hover{
+	color: #000;
+	text-decoration: none;
+}
+
+.container #welcome{
+	margin-top: 10%;
+	text-align: center;
+	font :22px Myriad Pro, Arial, sans-serif;
+}
+
+.container hr{
+	margin-left: 30%;
+	margin-right: 30%;
+	margin-top: -0.2%;
+	border-color: #e3e3e3;
+}
+
+ #back a{
+	font: 24px Myriad Pro, Arial;
+	text-decoration: none;
+	color: #08c;
+}
+
+#back a:hover{
+	color: #000;
+}
