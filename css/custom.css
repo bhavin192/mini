@@ -33,7 +33,7 @@ body{
 		padding-bottom:2px;
 		font-family:Myriad  Pro, sans-serif,Helvetica, Arial;
 		font-size:15px; 
-		margin-left: 200px;
+		margin-left: 222px;
 		line-height: 0px;
 		position:relative;
 	}
@@ -229,6 +229,7 @@ body{
 		font-family: ;
 		font-weight: bolder;
 	}
+	
 
  }
  
@@ -300,6 +301,14 @@ body{
 	margin-right:28%;
 }
 
+@media(max-width:769px){
+
+	.text-center hr{
+		margin-left:10%;
+		margin-right:11%;
+	}
+
+}
 .container .block p  , .container .smallblock p {
 
 	color: #08c;
@@ -314,13 +323,12 @@ body{
 		border-radius: 3px;
 		background-color: #f2f2f2;
 		box-shadow: 1px 1px 8px #ccc;
-	    	width:350px;
+	    width:450px;
 		height:auto;
 		padding-top: 0px;
 		padding-bottom: 20px;
 		padding-left: 0px;
-		margin-left:  0%;
-		margin-right:4%;
+		margin-left:17%;
 		margin-top: 20px;
 		display: inline-block;	
 	 }
@@ -328,7 +336,7 @@ body{
 	 .block > img{
 		position: relative; 
 		border-radius: 3px 3px 0 0;
-		width: 350px;
+		width: 450px;
 		width: 100%;
 		max-width: 100%;
 		height: 320px;
@@ -337,7 +345,7 @@ body{
 	.container .block .blur{
 		background-color: rgba(0,0,0,0.45);
 		height: 320px;
-		width: 350px;
+		width: 450px;
 		z-index: 5;
 		position: absolute;
 	}
@@ -356,11 +364,11 @@ body{
 		color: #fff;
 		position: relative;
 		font-family:Myriad  Pro, sans-serif,Helvetica, Arial;
-		width: 350px;
+		width: 450px;
 		height: 350px;
 		text-align: center;
 		text-rendering: optimizelegibility;
-		margin-top: 45%;
+		margin-top: 30%;
 	}
 
 	.container .smallblock{
@@ -372,7 +380,7 @@ body{
 		height: 350px;
 		padding-left: 0px;
 		margin-top: 20px;
-		margin-left: 0%;
+		margin-left: 10%;
 		margin-right: 0.5%;
 		display: inline-block;
 	}	
